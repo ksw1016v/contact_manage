@@ -1,13 +1,9 @@
 from django.db import models
 import datetime
 
-
-# Create your models here.
-
 class Depts(models.Model):
     dept= model.CharField('부서')
     
-
 class Teams(models.Model):
     team = models.CharField('팀')
 
@@ -16,7 +12,6 @@ class Ranks(models.Model):
 
 class Positions(models.Model):
     position = models.CharField('직책')
-
 
 
 class Users(models.Model):
@@ -77,7 +72,4 @@ class Customers(models.Model):
     memo = models.CharField('비고')
     customer_used = models.BooleanField('사용여부')
     updated = models.DateTimeField('수정일',auto_now = True)
-
-
-
 
