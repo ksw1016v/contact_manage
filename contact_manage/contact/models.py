@@ -104,3 +104,13 @@ class Payinformations(models.Model):
     pay_memo = models.TextField('결제메모')
     updated = models.DateTimeField('수정일',auto_now = True)
     customer = models.ForeignKey(Customers, on_delete=models.SET_NULL, related_name='payinformations')
+
+class pay_results(models.Model)
+    id = models.AutoField()
+    time_stamp = models.DateTimeField('등록일', default=datetime.datetime.now(), editable =False)
+    pay_date = models.DateField('결제일')
+    payment = models.IntegerField('결제수수료')
+    pay_memo = models.CharField('결제메모')
+    pay_category = models.CharField('결제구분')
+    payinformation = models.ForeignKey(Payinformations, on_delete=models.SET_NULL, related_name='pay_results')
+
