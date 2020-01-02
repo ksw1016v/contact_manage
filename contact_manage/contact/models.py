@@ -50,7 +50,7 @@ class Customers(models.Model):
     customer_reg_number = models.CharField('주민번호')
     customer_phone = models.CharField('전화번호')    
     company_address = models.CharField('주소')
-    company_co_owner = models.CharField('공동대표여부')
+    company_co_owner = models.BooleanField('공동대표여부')
     relation_company = models.ManyToManyField(self)
     sales1 = models.CharField('영업자(주)')
     sales2 = models.CharField('영업자(부)')
