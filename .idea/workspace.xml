@@ -7,8 +7,6 @@
       <change afterPath="$PROJECT_DIR$/contact_manage/contact/templates/contact/register2.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/contact_manage/contact/templates/contact/register3.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/contact_manage/contact/templates/contact/registered_info_update.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/contact_manage.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/contact_manage.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contact_manage/contact/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/contact_manage/contact/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contact_manage/contact/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/contact_manage/contact/views.py" afterDir="false" />
@@ -36,7 +34,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/contact_manage/contact/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="228">
@@ -48,11 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/contact_manage/contact_manage/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1">
-              <caret line="105" selection-start-line="105" selection-end-line="105" />
+            <state relative-caret-position="343">
+              <caret line="123" column="46" lean-forward="true" selection-start-line="123" selection-start-column="46" selection-end-line="123" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -116,7 +114,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/contact_manage/contact/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-266">
+            <state relative-caret-position="76">
               <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
@@ -140,7 +138,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/contact_manage/contact" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/contact_manage" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -156,8 +154,8 @@
         <option value="$PROJECT_DIR$/contact_manage/contact_manage/urls.py" />
         <option value="$PROJECT_DIR$/contact_manage/contact/views.py" />
         <option value="$PROJECT_DIR$/contact_manage/contact/models.py" />
-        <option value="$PROJECT_DIR$/contact_manage/contact_manage/settings.py" />
         <option value="$PROJECT_DIR$/contact_manage/contact/urls.py" />
+        <option value="$PROJECT_DIR$/contact_manage/contact_manage/settings.py" />
       </list>
     </option>
   </component>
@@ -192,33 +190,6 @@
             </path>
             <path>
               <item name="contact_manage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="contact_manage" type="462c0819:PsiDirectoryNode" />
-              <item name="contact_manage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="contact_manage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="contact_manage" type="462c0819:PsiDirectoryNode" />
-              <item name="contact_manage" type="462c0819:PsiDirectoryNode" />
-              <item name="contact" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="contact_manage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="contact_manage" type="462c0819:PsiDirectoryNode" />
-              <item name="contact_manage" type="462c0819:PsiDirectoryNode" />
-              <item name="contact" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="contact_manage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="contact_manage" type="462c0819:PsiDirectoryNode" />
-              <item name="contact_manage" type="462c0819:PsiDirectoryNode" />
-              <item name="contact" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="contact" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="contact_manage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="contact_manage" type="462c0819:PsiDirectoryNode" />
               <item name="contact_manage" type="462c0819:PsiDirectoryNode" />
               <item name="contact_manage" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -325,6 +296,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/contact_manage/manage.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact_manage/contact/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/contact_manage/contact/templates/contact/register1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -356,33 +340,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/contact_manage/manage.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contact_manage/contact/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/contact_manage/contact/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-266">
+        <state relative-caret-position="76">
           <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contact_manage/contact_manage/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1">
-          <caret line="105" selection-start-line="105" selection-end-line="105" />
         </state>
       </provider>
     </entry>
@@ -393,6 +357,13 @@
           <folding>
             <element signature="e#0#50#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact_manage/contact_manage/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="123" column="46" lean-forward="true" selection-start-line="123" selection-start-column="46" selection-end-line="123" selection-end-column="46" />
         </state>
       </provider>
     </entry>
