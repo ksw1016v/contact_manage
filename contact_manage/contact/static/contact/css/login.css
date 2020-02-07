@@ -11,10 +11,10 @@ body {
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	font-family: 'Montserrat', sans-serif;
 	height: 100vh;
 	margin: -20px 0 50px;
 }
+
 
 h1 {
 	font-weight: bold;
@@ -89,6 +89,8 @@ input {
 	width: 100%;
 }
 
+
+
 .container {
 	background-color: #fff;
 	border-radius: 10px;
@@ -162,7 +164,7 @@ input {
 .overlay {
 	background: #FF416C;
 	background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);
-	background: linear-gradient(to right, #FF4B2B, #FF416C);
+	background: linear-gradient(to right, #2E64FE, #2ECCFA);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 0 0;
@@ -250,3 +252,4 @@ footer a {
     color: #3c97bf;
     text-decoration: none;
 }
+
