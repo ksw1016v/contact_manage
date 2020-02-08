@@ -1,23 +1,30 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
+     <link href='{% static  "contact/css/register.css" %}' rel="stylesheet">
     <title>회원가입 step 2.</title>
 </head>
 <body>
-<div>
-    <div>
-    <h1>SONGLIM  TAX Corp.
-        <button>1단계 정보동의</button>
-        <button>2단계 정보입력</button>
-        <button>3단계 승인요청</button>
-    </h1>
+
+    <div id="header">SONGLIM  TAX Corp.</div>
+
+
+
+
+
+    <div id="content">
+        <button2>1단계 정보동의</button2>
+        <button1>2단계 정보입력</button1>
+        <button2>3단계 승인요청</button2>
     </div>
+<p></p>
+
 
 <form action="" method="post">
     <div>
         <table style="width:800px">
-            <thead><input type="button" name="회원가입" value="회원가입"></thead>
             <tbody>
             <tr>
                 <th><input  type="text" value="id"><input type="button" value="중복확인"></th>
@@ -44,8 +51,8 @@
             </tbody>
         </table>
         <p></p>
-
-        <input type="submit" name="다음" value="다음">
+        <a href="{% url 'register1' %}">이전</a>
+        <a href="{% url 'register3' %}">다음</a>
 
     </div>
  </form>

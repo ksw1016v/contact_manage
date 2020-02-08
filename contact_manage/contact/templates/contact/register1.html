@@ -7,56 +7,51 @@
 <head>
     <meta charset="UTF-8">
 
-    <link href='{% static  "contact/css/register.css" %}' rel="stylesheet">
-
     <title>회원가입 step 1.</title>
+
+    <link href='{% static  "contact/css/register.css" %}' rel="stylesheet">
 </head>
 
 <body>
-<nav>
- <ol>
-  <li class="active">1</li>
-  <li>2</li>
-  <li>3</li>
- </ol>
-</nav>
 
-<div class="sec-bg"></div>
+    <div id="header">SONGLIM  TAX Corp.</div>
 
-<div class="login-wrapper first">
- <div class="container">
-  <h1>Create an account</h1>
-  <h2 id="title">Welcome <span></span></h2>
 
-  <form>
-   <p class="instruction">Choose a username</p>
-   <input type="text" id="name" maxlength="14" placeholder="Username">
 
-   <a href="#">Already have an account?</a>
-   <button type="submit" id="next">Next</button>
-  </form>
- </div>
-</div>
 
-<div class="login-wrapper second">
- <div class="container">
-  <h1>Create an account</h1>
-  <h2 id="title">Please create a password <span></span></h2>
 
-  <form>
-   <p class="instruction">Choose a password</p>
-   <input type="password" maxlength="16" placeholder="Password">
+    <div id="content">
+        <button1>1단계 정보동의</button1>
+        <button2>2단계 정보입력</button2>
+        <button2>3단계 승인요청</button2>
+    </div>
+<p></p>
+    <div class="border-box1">
+        본인은 세무법인 송림의 “회원가입”과 관련하여, 아래와 같이 본인 개인정보의 수집･이용･제공에 동의합니다.<p></p>
 
-   <button type="submit" id="complete">Done</button>
-  </form>
- </div>
-</div>
+            가. 동의를 거부할 권리와 거부에 따른 불이익<p></p>
+            - 상기 본인은 상기 개인정보의 수집에 대하여 거부할 권리를 보유하고 있음을 인지하고 있음<p></p>
+            ※거부에 따른 불이익 : 공모지원 관련 기본수집 정보 부족으로 인한 참여제한<p></p>
+            나. 수집･이용･제공 목적<p></p>
+            - 세무법인 송림의 “업무홈페이지” 사용을 위해 아래와 같이 최소 정보를 수집합니다.<p></p>
+            다. 수집･이용･제공하는 개인정보의 항목<p></p>
+            - 신청인의 성명, 주소, 주민번호, 전화번호, 휴대폰번호, 이메일 주소<p></p>
+            라. 본인은 세무법인 송림의 “회원가입”과 관련하여, 아래와 같이 본인 개인정보의 수집･이용･제공에 동의합니다.<p></p>
+            마. 개인정보의 보유 및 이용･제공기간<p></p>
+            - 퇴사 후 10년<p></p>
+            ※ 본인은 개인정보 처리에 관하여 고지 받았으며, 이를 충분히 이해하고 동의합니다.
+    </div>
+<p></p>
+    <div class="border-box2">
+           ※ 본인은 개인정보 처리에 관하여 고지 받았으며, 이를 충분히 이해하고 동의합니다. <input type="radio" name="전체동의" value="전체동의">yes or no<p></p>
+    </div>
 
-<div class="login-wrapper third">
- <div class="container">
-  <h2 id="title">You're done <span></span></h2>
- </div>
-</div>
+
+
+<p></p>
+<a href="{% url 'register2' %}">다음</a>
+
+
 
 
 

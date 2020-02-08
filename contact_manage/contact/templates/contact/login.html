@@ -7,7 +7,7 @@
 
     <meta charset="UTF-8">
 
-    <link href='{% static  "contact/css/login.css"%}' rel="stylesheet">
+    <link href='{% static  "contact/css/login.css"%}' rel="stylesheet" >
 
     <title>로그인</title>
 
@@ -15,22 +15,23 @@
 
 <body>
 
-    <h1>SONGLIM  TAX Corp.</h1><p></p>
+
     <div class="container" id="container">
 
       <div class="form-container sign-in-container">
 		<form action="#">
-			<h2>Welcome Back!!</h2>
+			<h5>직원의 행복과 함께하는 세무법인 송림</h5>
 
-			<span>로그인 정보를 입력해 주세요</span>
+			<span>직원 정보를 입력해 주세요</span>
 
 
 			<input type="text" placeholder="ID" />
 			<input type="password" placeholder="Password" />
 
 
-            <input type="radio" name="로그인유지" value="로그인유지">기억하기
+
             <a href="#">ID/PW 찾기</a>
+			<a href="{% url 'register1' %}">회원가입</a>
 			<button>로그인</button>
 		</form>
 	  </div>
@@ -39,29 +40,34 @@
 
      <div class="form-container sign-up-container">
 		<form action="#">
+			<h5>사업 파트너 세무법인 송림</h5>
 
-			<h1>회원가입</h1>
-            <input type="text" placeholder="ID" />
-			<input type="email" placeholder="Email" />
-			<input type="password" placeholder="Password1" />
-            <input type="password" placeholder="Password2" />
-			<a href="#">정보이용동의</a>
-			<button>회원가입</button>
+			<span>고객 정보를 입력해 주세요</span>
+
+
+			<input type="text" placeholder="ID" />
+			<input type="password" placeholder="Password" />
+
+
+
+            <a href="#">ID/PW 찾기</a>
+			<a href="{% url 'register1' %}">회원가입</a>
+			<button>로그인</button>
 		</form>
-	</div>
+	  </div>
 
 
      <div class="overlay-container">
 		<div class="overlay">
 			<div class="overlay-panel overlay-right">
                 <h1>SONGLIM <h3>TAX Corp.</h3></h1>
-				<p>회원이 아니시면 먼저 회원가입을 해주세요</p>
-				<button class="ghost" id="signUp">회원가입</button>
+
+				<button class="ghost" id="signUp">고객용</button>
 			</div>
 			<div class="overlay-panel overlay-left">
 				<h1>SONGLIM <h3>TAX Corp.</h3></h1>
-				<p>회원정보를 정확하게 입력하여 주세요</p>
-				<button class="ghost" id="signIn">로그인</button>
+
+				<button class="ghost" id="signIn">직원용</button>
 			</div>
 		</div>
 	</div>
