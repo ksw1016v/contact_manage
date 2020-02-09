@@ -16,9 +16,9 @@
 <body>
 
 
-    <div class="container" id="container">
+<div class="container" id="container">
 
-      <div class="form-container sign-in-container">
+	<div class="form-container sign-in-container">
 		<form action="#">
 			<h5>직원의 행복과 함께하는 세무법인 송림</h5>
 
@@ -30,15 +30,17 @@
 
 
 
-            <a href="#">ID/PW 찾기</a>
-			<a href="{% url 'register1' %}">회원가입</a>
+			<div>
+				<a href="#" >ID/PW 찾기</a>
+				<a href="{% url 'register1' %}">회원가입</a>
+			</div>
+
 			<button>로그인</button>
 		</form>
-	  </div>
-     </dvi>
+	</div>
 
 
-     <div class="form-container sign-up-container">
+	<div class="form-container sign-up-container">
 		<form action="#">
 			<h5>사업 파트너 세무법인 송림</h5>
 
@@ -50,18 +52,20 @@
 
 
 
-            <a href="#">ID/PW 찾기</a>
-			<a href="{% url 'register1' %}">회원가입</a>
+			<div>
+				<a href="#">ID/PW 찾기</a>
+				<a href="{% url 'register1' %}">회원가입</a>
+			</div>
+
 			<button>로그인</button>
 		</form>
-	  </div>
+	</div>
 
 
-     <div class="overlay-container">
+	<div class="overlay-container">
 		<div class="overlay">
 			<div class="overlay-panel overlay-right">
-                <h1>SONGLIM <h3>TAX Corp.</h3></h1>
-
+	                	<h1>SONGLIM <h3>TAX Corp.</h3></h1>
 				<button class="ghost" id="signUp">고객용</button>
 			</div>
 			<div class="overlay-panel overlay-left">
@@ -72,7 +76,7 @@
 		</div>
 	</div>
 
-  </div>
+</div>
 
 
 
