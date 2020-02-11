@@ -37,11 +37,13 @@ p {
 
 span {
 	font-size: 12px;
+	text-decoration: none;
+	margin: 5px 0;
 }
 
 a {
-	color: #333;
-	font-size: 14px;
+	color: #848484;
+	font-size: 10px;
 	text-decoration: none;
 	margin: 15px 0;
 }
@@ -165,8 +167,8 @@ input {
 
 .overlay {
 	background: #FF416C;
-	background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);
-	background: linear-gradient(to right, #2E64FE, #FF416C);
+	background: -webkit-linear-gradient(to right, #FF4B2B, #FF0000);
+	background: linear-gradient(to right, #2E64FE, #FF0000);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 0 0;
@@ -241,17 +243,3 @@ footer {
     text-align: center;
     z-index: 999;
 }
-
-footer p {
-    margin: 10px 0;
-}
-
-footer i {
-    color: red;
-}
-
-footer a {
-    color: #3c97bf;
-    text-decoration: none;
-}
-

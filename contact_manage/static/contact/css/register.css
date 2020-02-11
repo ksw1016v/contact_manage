@@ -15,10 +15,12 @@ body {
 }
 
 
+
 h1 {
 	font-weight: bold;
 	margin: 0;
 }
+
 
 h2 {
 	text-align: center;
@@ -36,35 +38,36 @@ h3 {
 			0 10px 10px rgba(0,0,0,0.22);
 	position: relative;
 	overflow: hidden;
-	width: 768px;
 	max-width: 100%;
 	min-height: 480px;
 
 
 }
 
+
+
 .head {
     height: 10%;
     text-align: center;
     margin: 10px;
+    padding-bottom: 9px;
+    border-bottom: 1px solid #eee;
 
 }
 
 
 
 button {
-	border-radius: 10px;
+	border-radius: 18px;
 	border: 1px solid #2E64FE;
 	background-color: #2E64FE;
 	color: #FFFFFF;
 	font-size: 10px;
 	font-weight: bold;
-	padding: 12px 20px;
+	padding: 8px 12px;
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	transition: transform 80ms ease-in;
-	height: 20px;
-	width : 150px;
 }
 
 .button_position {
@@ -75,13 +78,59 @@ button {
 }
 
 
+
 .main_container {
-	background-color: #E0E0F8;
+	background-color: #E0ECF8;
 	border-radius: 10px;
-    margin : auto;
 	position: relative;
 	overflow: hidden;
 	width: 700px;
 	max-width: 100%;
 	min-height: 100px;
+	font-size: 10px;
+	margin: 20px 30px;
+	padding: 8px 12px;
+}
+
+.sub_container {
+	background-color: #F2F2F2;
+	border-radius: 10px;
+	position: relative;
+	overflow: hidden;
+	width: 700px;
+	max-width: 100%;
+	min-height: 50px;
+	font-size: 10px;
+	margin: 20px 30px;
+	padding: 8px 12px;
+}
+
+
+
+.last_container {
+	background-color: #fffffff;
+	border-radius: 10px;
+	text-align: center;
+	width: 700px;
+	padding: 8px 0;
+}
+
+
+input {
+	background-color: #FAFAFA;
+	border: none;
+	padding: 12px 15px;
+	margin: 8px 0;
+	width: 100%;
+}
+
+
+.left-box {
+   float: left;
+   width: 50%;
+}
+
+.right-box {
+   float: right;
+   width: 50%;
 }

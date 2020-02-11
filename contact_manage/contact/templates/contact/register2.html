@@ -8,54 +8,84 @@
 </head>
 <body>
 
-    <div id="header">SONGLIM  TAX Corp.</div>
+  <div class="container">
+
+      <div class="head"><h1>SONGLIM  TAX Corp.</h1> </div>
 
 
 
 
 
-    <div id="content">
-        <button2>1단계 정보동의</button2>
-        <button1>2단계 정보입력</button1>
-        <button2>3단계 승인요청</button2>
+    <div class="button_position">
+        <button>1단계 정보동의</button>
+        <button>2단계 정보입력</button>
+        <button>3단계 승인요청</button2>
     </div>
-<p></p>
+
+
+<div class ="main_container ">
 
 
 <form action="" method="post">
-    <div>
-        <table style="width:800px">
+    <div class = "left-box">
+        <table >
             <tbody>
             <tr>
-                <th><input  type="text" value="id"><input type="button" value="중복확인"></th>
-                <th><input  type="text" value="이름"></th>
+                <th><input  type="text" value="id"></th>
+                <th><input type="button" value="중복확인"></th>
             <tr>
 
             <tr>
-                <th><input  type="text" value="password"></th>
-                <th><input  type="text" value="주민번호"></th>
+                <th colspan="2"><input  type="text" value="password"></th>
             <tr>
             <tr>
-                <th><input  type="text" value="password2"></th>
-                <th><input  type="text" value="연락처"><input type="text" name="통신사" value="통신사"></th>
+                <th colspan="2"><input  type="text" value="password2"></th>
             <tr>
             <tr>
-                <th><input  type="text" value="email"></th>
-                <th><input  type="text" value="주소"><input type="button" value="주소검색"></th>
+                <th colspan="2"><input  type="text" value="email"></th>
             <tr>
 
             <tr>
-                <th><input  type="text" value="email"></th>
-                <th><input  type="text" value="상세주소"></th>
+                <th colspan="2"><input  type="text" value="email"></th>
             <tr>
             </tbody>
         </table>
-        <p></p>
-        <a href="{% url 'register1' %}">이전</a>
-        <a href="{% url 'register3' %}">다음</a>
-
     </div>
- </form>
+    <div class = "right-box">
+        <table >
+            <tbody>
+            <tr>
+                <th colspan="2"><input  type="text" value="이름"></th>
+            <tr>
 
+            <tr>
+                <th colspan="2"><input  type="text" value="주민번호"></th>
+            <tr>
+            <tr>
+                <th><input  type="text" value="연락처"></th>
+                <th><input type="text" name="통신사" value="통신사"></th>
+            <tr>
+            <tr>
+                <th><input  type="text" value="주소"></th>
+                <th><input type="button" value="주소검색"></th>
+            <tr>
+
+            <tr>
+                <th colspan="2"><input  type="text" value="상세주소"></th>
+            <tr>
+            </tbody>
+        </table>
+    </div>
+
+
+ </form>
+</div>
+
+<div class="last_container">
+        <button  onclick = "location.href = '/contact/register1' ">이전</button>
+        <button  onclick = "location.href = '/contact/register3' ">다음</button>
+</div>
 </body>
+
+
 </html>
