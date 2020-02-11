@@ -1,4 +1,8 @@
 
+* {
+	box-sizing: border-box;
+}
+
 
 body {
 	background: #f6f5f7;
@@ -6,53 +10,78 @@ body {
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	height: 100vh;
+	height: 100%;
+	margin: 20px 0 50px;
 }
 
-#header{
-  position: fixed;
-  top: 0px;
-  z-index: 1;
-  width: 50%;
-  height: 50px;
-  padding: 20px 50px;
-  background-color: #eee;
-  font-family: "Arial";
-  font-weight: bold;
-  font-size: 3em;
-  text-align: center;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  user-select: none;
-  cursor: default;
+
+h1 {
+	font-weight: bold;
+	margin: 0;
 }
 
-.scroll{
-  box-shadow: 0px 5px 30px 2px #333;
+h2 {
+	text-align: center;
 }
 
-#content{
-  margin-top: 100px;
-  padding: 10px 20px;
-  font-size: 5px;
+h3 {
+	text-align: left;
 }
 
-#content p{
-  text-align: justify;
-  margin: 10px;
-  font-family: Verdana;
-  line-height: 25px;
+
+.container {
+	background-color: #fff;
+	border-radius: 10px;
+  	box-shadow: 0 14px 28px rgba(0,0,0,0.25),
+			0 10px 10px rgba(0,0,0,0.22);
+	position: relative;
+	overflow: hidden;
+	width: 768px;
+	max-width: 100%;
+	min-height: 480px;
+
+
 }
+
+.head {
+    height: 10%;
+    text-align: center;
+    margin: 10px;
+
+}
+
+
 
 button {
-	border-radius: 20px;
+	border-radius: 10px;
 	border: 1px solid #2E64FE;
 	background-color: #2E64FE;
 	color: #FFFFFF;
-	font-size: 12px;
+	font-size: 10px;
 	font-weight: bold;
-	padding: 12px 45px;
+	padding: 12px 20px;
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	transition: transform 80ms ease-in;
+	height: 20px;
+	width : 150px;
+}
+
+.button_position {
+ text-align: justify;
+ text-align-last: justify;
+ margin: 10px 30px;
+
+}
+
+
+.main_container {
+	background-color: #E0E0F8;
+	border-radius: 10px;
+    margin : auto;
+	position: relative;
+	overflow: hidden;
+	width: 700px;
+	max-width: 100%;
+	min-height: 100px;
 }

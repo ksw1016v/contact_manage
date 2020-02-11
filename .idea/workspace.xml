@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="18f2aef9-64d8-4527-8d9a-9fd4c2923730" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/contact_manage/contact/static/contact/css/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contact_manage/contact/static/contact/css/register.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contact_manage/contact/static/contact/js/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contact_manage/contact/static/contact/js/register.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contact_manage/contact/templates/contact/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contact_manage/contact/templates/contact/register1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contact_manage/contact/templates/contact/register2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contact_manage/contact/templates/contact/register3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contact_manage/contact/templates/contact/registered_info_update.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contact_manage/contact/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contact_manage/static/contact/css/register.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact_manage/contact/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/contact_manage/contact/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact_manage/contact/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/contact_manage/contact/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact_manage/static/contact/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/contact_manage/static/contact/css/login.css" afterDir="false" />
-    </list>
+    <list default="true" id="18f2aef9-64d8-4527-8d9a-9fd4c2923730" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,11 +22,17 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/contact_manage/contact/templates/contact/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="56" column="12" lean-forward="true" selection-start-line="56" selection-start-column="12" selection-end-line="56" selection-end-column="12" />
+            <state relative-caret-position="-693">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+              <folding>
+                <element signature="n#style#0;n#th#0;n#tr#0;n#tbody#0;n#table#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#th#1;n#tr#0;n#tbody#0;n#table#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#th#0;n#tr#0;n#tbody#0;n#table#0;n#form#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#th#1;n#tr#0;n#tbody#0;n#table#0;n#form#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -49,38 +40,44 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/contact_manage/contact/templates/contact/register1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="27" selection-end-column="7" />
+            <state relative-caret-position="276">
+              <caret line="45" column="6" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/contact_manage/static/contact/css/register.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="395">
+              <caret line="80" column="18" lean-forward="true" selection-start-line="80" selection-start-column="18" selection-end-line="80" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/contact_manage/contact_manage/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="120" column="59" lean-forward="true" selection-start-line="120" selection-start-column="59" selection-end-line="120" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/contact_manage/static/contact/js/register.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/contact_manage/contact/templates/contact/register2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/contact_manage/contact/templates/contact/register3.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
-              <folding>
-                <element signature="n#style#0;n#table#0;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/contact_manage/contact/static/contact/css/register.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="91">
-              <caret line="84" column="14" selection-start-line="84" selection-start-column="14" selection-end-line="84" selection-end-column="14" />
+            <state relative-caret-position="162">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
@@ -88,8 +85,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/contact_manage/static/contact/css/login.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-722">
-              <caret line="55" column="23" lean-forward="true" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
+            <state relative-caret-position="380">
+              <caret line="59" column="1" lean-forward="true" selection-start-line="47" selection-end-line="59" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/contact_manage/contact/templates/contact/register3.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+              <folding>
+                <element signature="n#style#0;n#table#0;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -113,7 +122,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/contact_manage/contact" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -125,29 +134,29 @@
         <option value="$PROJECT_DIR$/contact_manage/contact_manage/urls.py" />
         <option value="$PROJECT_DIR$/contact_manage/contact/views.py" />
         <option value="$PROJECT_DIR$/contact_manage/contact/models.py" />
-        <option value="$PROJECT_DIR$/contact_manage/contact_manage/settings.py" />
         <option value="$PROJECT_DIR$/contact_manage/templates/base.html" />
         <option value="$PROJECT_DIR$/contact_manage/static/contact/css/admin.css" />
         <option value="$PROJECT_DIR$/contact_manage/contact/static/contact/js/login.js" />
         <option value="C:/Anaconda3/Lib/site-packages/django/views/debug.py" />
         <option value="$PROJECT_DIR$/contact_manage/static/contact/js/login.js" />
         <option value="$PROJECT_DIR$/contact_manage/static/contact/js/register.js" />
-        <option value="$PROJECT_DIR$/contact_manage/contact/templates/contact/login.html" />
         <option value="$PROJECT_DIR$/contact_manage/contact/static/contact/js/register.js" />
         <option value="$PROJECT_DIR$/contact_manage/contact/static/contact/css/login.css" />
-        <option value="$PROJECT_DIR$/contact_manage/static/contact/css/login.css" />
-        <option value="$PROJECT_DIR$/contact_manage/static/contact/css/register.css" />
-        <option value="$PROJECT_DIR$/contact_manage/contact/static/contact/css/register.css" />
-        <option value="$PROJECT_DIR$/contact_manage/contact/templates/contact/register1.html" />
         <option value="$PROJECT_DIR$/contact_manage/contact/urls.py" />
         <option value="$PROJECT_DIR$/contact_manage/contact/templates/contact/register3.html" />
         <option value="$PROJECT_DIR$/contact_manage/contact/templates/contact/register2.html" />
+        <option value="$PROJECT_DIR$/contact_manage/contact/templates/contact/login.html" />
+        <option value="$PROJECT_DIR$/contact_manage/contact/static/contact/css/register.css" />
+        <option value="$PROJECT_DIR$/contact_manage/contact_manage/settings.py" />
+        <option value="$PROJECT_DIR$/contact_manage/static/contact/css/login.css" />
+        <option value="$PROJECT_DIR$/contact_manage/static/contact/css/register.css" />
+        <option value="$PROJECT_DIR$/contact_manage/contact/templates/contact/register1.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="2" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-138" />
+    <option name="y" value="76" />
     <option name="width" value="1940" />
     <option name="height" value="1050" />
   </component>
@@ -181,33 +190,21 @@
               <item name="contact_manage" type="462c0819:PsiDirectoryNode" />
               <item name="contact_manage" type="462c0819:PsiDirectoryNode" />
               <item name="contact" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="contact_manage" type="b2602c69:ProjectViewProjectNode" />
               <item name="contact_manage" type="462c0819:PsiDirectoryNode" />
               <item name="contact_manage" type="462c0819:PsiDirectoryNode" />
               <item name="contact" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="contact" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="contact_manage" type="b2602c69:ProjectViewProjectNode" />
               <item name="contact_manage" type="462c0819:PsiDirectoryNode" />
               <item name="contact_manage" type="462c0819:PsiDirectoryNode" />
-              <item name="contact" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="contact" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="contact_manage" type="b2602c69:ProjectViewProjectNode" />
               <item name="contact_manage" type="462c0819:PsiDirectoryNode" />
-              <item name="contact_manage" type="462c0819:PsiDirectoryNode" />
-              <item name="contact" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="contact" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="contact_manage" type="b2602c69:ProjectViewProjectNode" />
@@ -237,6 +234,12 @@
               <item name="static" type="462c0819:PsiDirectoryNode" />
               <item name="contact" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="contact_manage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="contact_manage" type="462c0819:PsiDirectoryNode" />
+              <item name="contact_manage" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -284,7 +287,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22457068" />
@@ -393,37 +396,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/contact_manage/contact_manage/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2337">
-          <caret line="123" column="33" selection-start-line="123" selection-start-column="33" selection-end-line="123" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contact_manage/contact/static/contact/js/login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contact_manage/static/contact/js/register.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contact_manage/contact/templates/contact/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="56" column="12" lean-forward="true" selection-start-line="56" selection-start-column="12" selection-end-line="56" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contact_manage/contact/static/contact/css/login.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2356">
-          <caret line="47" column="30" lean-forward="true" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/contact_manage/contact/static234234/contact/js/login.js" />
+    <entry file="file://$PROJECT_DIR$/contact_manage/contact/static234234/contact/css/login.css" />
     <entry file="file://$PROJECT_DIR$/contact_manage/static/admin/css/widgets.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -441,31 +415,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/contact_manage/contact/static/contact/js/register.js">
+    <entry file="file://$PROJECT_DIR$/contact_manage/contact/static234234/contact/js/register.js" />
+    <entry file="file://$PROJECT_DIR$/contact_manage/contact/templates/contact/register3.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contact_manage/static/contact/css/register.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="509">
-          <caret line="57" column="1" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contact_manage/static/contact/css/login.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-722">
-          <caret line="55" column="23" lean-forward="true" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contact_manage/contact/static/contact/css/register.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="84" column="14" selection-start-line="84" selection-start-column="14" selection-end-line="84" selection-end-column="14" />
+        <state relative-caret-position="437">
+          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+          <folding>
+            <element signature="n#style#0;n#table#0;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -479,27 +436,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/contact_manage/contact/templates/contact/register1.html">
+    <entry file="file://$PROJECT_DIR$/contact_manage/contact_manage/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="27" selection-end-column="7" />
+        <state relative-caret-position="276">
+          <caret line="120" column="59" lean-forward="true" selection-start-line="120" selection-start-column="59" selection-end-line="120" selection-end-column="59" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/contact_manage/contact/templates/contact/register3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
-          <folding>
-            <element signature="n#style#0;n#table#0;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/contact_manage/contact/static234234/contact/css/register.css">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/contact_manage/contact/templates/contact/register2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+        <state relative-caret-position="162">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact_manage/static/contact/js/register.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact_manage/static/contact/css/login.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="59" column="1" lean-forward="true" selection-start-line="47" selection-end-line="59" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact_manage/static/contact/css/register.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="80" column="18" lean-forward="true" selection-start-line="80" selection-start-column="18" selection-end-line="80" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact_manage/contact/templates/contact/register1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="45" column="6" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact_manage/contact/templates/contact/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-693">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="n#style#0;n#th#0;n#tr#0;n#tbody#0;n#table#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#1;n#tr#0;n#tbody#0;n#table#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#0;n#tr#0;n#tbody#0;n#table#0;n#form#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#1;n#tr#0;n#tbody#0;n#table#0;n#form#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
