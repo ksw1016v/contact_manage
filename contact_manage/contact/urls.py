@@ -11,5 +11,6 @@ urlpatterns = [
     path('register3/',  Index.as_view(template_name='contact/register3.html'), name='register3'),
     path('registered_info/',  Index.as_view(template_name='contact/registered_info.html'), name='Index'),
     path('registered_info_update/',  Index.as_view(template_name='contact/registered_info_update.html'), name='Index'),
+    path('find_idpw/',  Index.as_view(template_name='contact/find_idpw.html'), name='find_idpw'),
 
 ]

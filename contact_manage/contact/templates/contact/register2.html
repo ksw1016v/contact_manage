@@ -4,24 +4,13 @@
 <head>
     <meta charset="UTF-8">
      <link href='{% static  "contact/css/register.css" %}' rel="stylesheet">
-    <title>회원가입 step 2.</title>
+    <title>회원가입</title>
 </head>
 <body>
 
-  <div class="container">
+<div class="container">
 
-      <div class="head"><h1>SONGLIM  TAX Corp.</h1> </div>
-
-
-
-
-
-    <div class="button_position">
-        <button>1단계 정보동의</button>
-        <button>2단계 정보입력</button>
-        <button>3단계 승인요청</button2>
-    </div>
-
+      <div class="head"><h1>회원가입</h1></div>
 
 <div class ="main_container ">
 
@@ -31,22 +20,22 @@
         <table >
             <tbody>
             <tr>
-                <th><input  type="text" value="id"></th>
-                <th><input type="button" value="중복확인"></th>
+                <th><input  type="text" placeholder="ID"></th>
+                <th><input type="text" name="중복확인"  placeholder="중복확인" ></th>
             <tr>
 
             <tr>
-                <th colspan="2"><input  type="text" value="password"></th>
+                <th colspan="2"><input  type="password" placeholder="password"></th>
             <tr>
             <tr>
-                <th colspan="2"><input  type="text" value="password2"></th>
+                <th colspan="2"><input  type="password" placeholder="password"></th>
             <tr>
             <tr>
-                <th colspan="2"><input  type="text" value="email"></th>
+                <th colspan="2"><input  type="email" placeholder="email"></th>
             <tr>
 
             <tr>
-                <th colspan="2"><input  type="text" value="email"></th>
+                <th colspan="2"><input  type="text" placeholder="기타"></th>
             <tr>
             </tbody>
         </table>
@@ -55,23 +44,23 @@
         <table >
             <tbody>
             <tr>
-                <th colspan="2"><input  type="text" value="이름"></th>
+                <th colspan="2"><input  type="text" placeholder="이름"></th>
             <tr>
 
             <tr>
-                <th colspan="2"><input  type="text" value="주민번호"></th>
+                <th colspan="2"><input  type="text" placeholder="주민번호"></th>
             <tr>
             <tr>
-                <th><input  type="text" value="연락처"></th>
-                <th><input type="text" name="통신사" value="통신사"></th>
+                <th><input  type="text" placeholder="연락처"></th>
+                <th><input type="text" name="통신사" placeholder="통신사"></th>
             <tr>
             <tr>
-                <th><input  type="text" value="주소"></th>
-                <th><input type="button" value="주소검색"></th>
+                <th><input  type="text" placeholder="주소"></th>
+                <th><input type="text" name="주소검색" placeholder="주소검색"></th>
             <tr>
 
             <tr>
-                <th colspan="2"><input  type="text" value="상세주소"></th>
+                <th colspan="2"><input  type="text" placeholder="상세주소"></th>
             <tr>
             </tbody>
         </table>
@@ -81,9 +70,16 @@
  </form>
 </div>
 
+
+
+<div class="head"></div>
 <div class="last_container">
-        <button  onclick = "location.href = '/contact/register1' ">이전</button>
-        <button  onclick = "location.href = '/contact/register3' ">다음</button>
+    <div><h6>
+    아래 [회원가입] 버튼을 누르시면
+    <a href="#">이용약관</a>과 <a href="#">개인정보처리방침</a>에 동의하는 것으로 간주합니다.</h6>
+    </div>
+
+        <button  onclick = "location.href = '/contact/register3' ">회 원 가 입</button>
 </div>
 </body>
 
